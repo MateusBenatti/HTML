@@ -1,0 +1,167 @@
+/*h2{
+	color: #236B8E;
+	background-color: #E0FFFF;
+	text-align: center;
+}*/
+p{
+	color: #236B8E;
+	background-color: #E0FFFF;
+}
+/*h1{
+	color: #236B8E;
+	text-align: center;
+}*/
+body{
+	background-image: url("lobodefundo.jpeg");
+	/* Comentário em CSS */
+	background-repeat: no-repeat;
+	/* 	repeat    : default(Padrão);
+		no-repeat : não repete;
+		repeat-x  : repete só na horizontal;
+		repeat-y  : repete só na vertical. */
+	background-position: center right;
+	/*	
+		background-position: 25% 50%;
+
+		top    : coloca no topo (superior);
+		bottom : coloca no fim (inferior);
+		left   : coloca na esquerda (Padrão);
+		center : coloca no centro;
+		right  : coloca na direita.
+		(Pode ser colocado mais de um comando ao mesmo tempo.)
+	
+	*/
+}
+/* Como formatar a fonte(letra) da página. */
+/*
+h3{
+	color: #236B8E;
+	font-family: "lucida calligraphy", "Arial", serif; 
+
+	/* 	font-family: "lucida calligraphy" : formata o tipo de fonte(letra); 
+		font-family: "lucida calligraphy", "Arial", serif; -- o "Arial" em 
+		segundo significa que caso a primeira fonte não seja 
+		encontrada, pois nem todos os navegadores tem a fonte que deseja será 
+		colocada essa fonte. E o "serif" que caso não seja 
+		encontrado nenhuma das duas sera selecionado uma fonte padrão.
+	*/
+	/*font-style: oblique;
+	/*	font-style: -- muda o estilo da fonte(letra). Existem: italic, oblique
+	, normal.*/
+
+	/*font-weight: 100;
+	/*	font-weight: -- muda a expessora da fonte(letra). */
+	/*font-size: 25px;
+	/*	font-size: -- aumenta o tamanho da fonte(letra).
+		Tem 4 unidade: pt(multiplica pelo tamanho da pagina), px(pelos pixels),
+		%(por porcentagem), em(multiplica de acordo com a fonte).
+		pt px - tamanhos fixos;
+		% em  - tamanho de acordo com o padrão dispositivo.
+		*/
+}
+
+/* Como formatar textos. */
+
+p{
+	font-family: "lucida calligraphy", "Arial", serif;
+	text-indent: 30px;
+	/* 	Aplica um recuo de 30px na primeira linha do parágrafo. */
+	text-align: ;
+	/* 	alinhar o texto: right, center e justify (left é padrão, ou seja, 
+	já esta colocado). */
+	text-decoration: underline;
+	/* 	none        : retira o sublinhado;
+		underline   : coloca uma linha abaixo do texto - sublinha;
+		overline    : coloca uma linha acima do texto;
+		line-through: coloca um traço no texto;*/
+	letter-spacing: 3px;
+	/* 	Espaçamento entre as letras. */
+	text-transform: capitalize;
+	/* 	Trabalha com os valores: capitalize: deixa todas as primeiras letras 
+											 maiúsculas;
+								 uppercase : deixa todo o texto com letras 
+								 			 maiúsculas;
+								 lowercase : deixa todo o texto com letras 
+								 			 minúsculas. 
+	*/
+}
+/* Como formatar links. */
+/* Pseudo-classes: permitem estilizarmos algumas tags levando em conta 
+condições difeerentes ou eventos ao definir uma propriedade. */
+a{
+	color:green;
+	/* Muda a cor do link. */
+}
+ /* Estiliza o link no momento de acesso a página. */
+a:link{
+	color:green;
+	/* a:link -- serve para caso o link não tenha sido visitado ele colocará 
+	essa cor (antes de ser visitado). */
+}
+/* Pseudo-classe visited: estiliza após visitar(clicar) o link. */
+a:visited{
+	color:white;
+	/* a:visited -- serve para caso o link tenha sido visitado ele colocará essa 
+	cor (depois de ser visitado). */
+}
+/* Pseudo-classe active: estiliza no momento em que adicionamos o link 
+(em que clicamos e seguramos o link). */
+a:active{
+	background-color: orange;
+}
+/* Pseudo-classe hover: quando o cursor passa sobre o link(muda quando colocamos 
+o mouse em cima). */
+a:hover{
+	text-transform: uppercase;
+	letter-spacing: 5px; /* Aumenta o espaçamento entre as letras. */
+	color: gold;
+	font-style: italic;
+	text-decoration: none;
+}
+
+/* Classes: podemos definir propriedades para estilização dos elementos 
+pertencentes a uma determinada classe. */
+
+a.TurmaA{
+	color: #8B0000;
+	letter-spacing: 3px;
+	font-family: "lucida calligraphy";
+	text-transform: uppercase;
+}
+
+a.TurmaB{
+	color: #EE3B3B;
+	letter-spacing: 4px;
+	font-family: "lucida calligraphy";
+	text-align: lowercase;
+}
+/* id - Estilizar um unico elemento com formatação propria(Formatação especifa para cada elemento) */
+#c1{
+	font-family: "lucida calligraphy";
+	color: #236B8E;
+}
+
+#c1-1{
+	font-family: "lucida calligraphy";
+	color: green;
+}
+
+#c1-2{
+	font-family: "lucida calligraphy";
+	color: blue;
+}
+
+#c2{
+	font-family: "lucida calligraphy";
+	color: #EE3B3B;
+}
+
+#c2-1{
+	font-family: "lucida calligraphy";
+	color: #8B0000;
+}
+
+#c2-1-1{
+	font-family: "lucida calligraphy";
+	color: #A9A9A9;
+}
