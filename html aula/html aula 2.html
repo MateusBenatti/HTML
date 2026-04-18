@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Primeira Aula - HTML</title>
+	</head>
+	<body bgcolor="CornflowerBlue">
+		<p>O que é HTML? </p>
+		<p>Linguagem de Marcação de Hipertexto</p>
+		<p>Hypetext Markup Language</p>
+		<p>O HTML é uma linguam de marcação representada
+			por tags. As tags são interpretadas pelo navegador.
+			A entrutura básica de um documento HTML é:
+			html  - tag principal;
+			head  - tag utilizada para delimitar o cabeçalho;
+			title - tag onde colocamos o título da página;
+			body  - tag usada para definir o corpo do documento;</p>
+
+		<h1>Título Principal</h1> <!-- Título nível 1 -->
+		<h2>nível 2</h2> <!-- Título nível 2 -->
+		<h3>nível 3</h3> <!-- Título nível 3 -->
+		<h4>nível 4</h4> <!-- Título nível 4 -->
+		<h5>nível 5</h5> <!-- Título nível 5 -->
+		<h6>nível 6</h6> <!-- Título nível 6 -->
+
+		<!-- Comentário em HTML -->
+		<!-- Inserir Imagem -->
+
+		<figure> <!-- Usada para agrupar imagem em um bloco unico (Explicação do professor:Cria um grupó de Imagens, Ilustrações, Graficos) -->
+		<img src="wolf.jpg" alt="lobo" height="450" width="600" /> <!-- Imagem na mesma pasta que o arquivo HTML -->
+
+		<img src="C:\Users\al1720635\Desktop\wolf2.jpg" alt="lobo 2" height="450" width="600" /> <!-- Imagem em outra pasta -->
+
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Canis_lupus_pup_closeup.jpg/230px-Canis_lupus_pup_closeup.jpg" alt="lobo_site" height="450" width="600" /> <!-- Imagem diretamente do site -->
+		<figcaption>Teste da disciplina PWE </figcaption> <!-- Usada para colocar uma legenda  -->
+		</figure>
+
+		<hr> <!-- Coloca uma linha Horizontal na pagina, Não a necessidade de fechar a tag pois é uma teg vazia -->
+
+		<h3>Listas de alunos reprovados:</h3>
+		<ul type="square"><!-- Para lista não ordenada --> <!-- Três tipos de Ícones:disc(PADÃO, bolinha preta), circle, square -->
+			<li>Henrique</li> <!--  Serve para adcionar os itens, ou seja, SÃO OS ITENS -->
+			<li>Pedro Augusto</li>
+			<li>Brioto</li>
+			<li>Júnior</li>
+			<li>Marco Antonio</li>
+			<li>Vinícius</li>
+			<li>Pitchula</li>
+		</ul>
+
+		<hr>
+
+		<h3>Lista Ordenada:</h3>
+		<ol style="list-style: upper-alpha" reversed> <!-- Para listas ordenadas usamos "ol" --> <!-- Podemos mudar o stilo Exemplo:"upper-alpha"(Grande-Alfabeto)(Vai ordenar por letras maiusculas do alfabeto);
+		-"lower-alpha"(Pequeno-Alfabeto)(Vai ordenar por letras minusculas do alfabeto);
+		-"reversed" coloca de traz para frente -->
+			<li>Eduardo</li>
+			<li>Gabriel</li>
+			<li>Felipe</li>
+			<li>Isabely</li>
+			<li>Lívia Lopes</li>
+			<li>Benatti</li>
+			<li>Maria Fernanda</li>
+			
+		</ol>
+		<hr>
+		<h3>Curso do IFSP Catanduva</h3>
+		<ol>
+			<li>Cursos Integrados</li>
+			<ol style="list-style: lower-alpha"> <!-- Pdemos criar sub-listas dentro de outras listas desse geito: -->
+				<li>Redes</li>
+				<li>Química</li>
+				<li>Mecatrônoica</li>
+			</ol>
+			<li>Cursos Superiores</li>
+			<ol style="list-style: lower-alpha">
+				<li>ADS</li>
+				<li>Engenharia</li>
+				<li>Licenciatura em Química</li>
+			</ol>
+		</ol>
+
+		
+
+	</body>
+</html>
